@@ -1,0 +1,28 @@
+﻿OVERVIEW:
+I designed and developed this installation at which visitors interactively sketched with lights and interacted via multiple tangible sensors. Using multiple webcams, people could create 3D light forms in space.
+
+BACKGROUND:
+This was my final project for the course “Making Things Interact” in the School of Architecture at Carnegie Mellon. The assignment was open-ended and I chose to combine electronic sensing, light painting, multiple camera perspectives, and real-time processing to create an installation at which visitors could sketch 3D light forms in space.
+
+EXPLORE & BUILD:
+This was the first time I used openFrameworks, but I love experimenting with new tools. After installing the toolkit and checking out some of the examples, I created a simple program that captured images from my laptop’s webcam and only updated a given pixel if it was brighter than the previously recorded data.
+
+With a simple example working, I ordered 6 Logitech webcams and began experimenting with multiple cameras. I eventually got all 6 cameras working and with some keyboard debug shortcuts I could show system status, set the current camera, change the refresh rate, and open the settings for any individual camera.
+
+The final steps for this project were building my sensor circuits and setting up serial communication between my openFrameworks program and the Arduino. I didn’t want visitors to need to interact with a keyboard, so I used 4 tangible sensors.
+
+A potentiometer controlled how fast the images sequenced, one foot sensor let people switch between seeing one image fullscreen or all six tiled, another foot sensor disabled additional input, and finally hitting a can overhead reset the image so you could start painting again.
+
+
+LESSONS LEARNED:
+This project was a ton of fun, and I definitely consider it a success. Nevertheless, there’s always the opportunity to learn from experience.
+
+Choose sensors carefully. Everyone was thrilled to hit the coffee can to clear the current image, but visitors weren’t nearly as interested in trying the foot sensors or the potentiometer. Another issue was that the functionality wasn’t clearly mapped and needed to be explained.
+
+Trust early testing. Several people noted that they would rather see the images mirrored so that they were the same orientation as the original painting. I'd also heard this in testing with before the exhibit day, but didn’t get a chance to fix it before the demo.
+
+Bring a camera! One of my biggest regrets is that I didn’t document the demo day better. I was busy showing off my project, but if I had to do it over again I would definitely recruit someone to take pictures and video.
+
+
+VIDEO EMBED CODE:
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/HEQ6kCr3pBY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/HEQ6kCr3pBY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"><€mbed></object>

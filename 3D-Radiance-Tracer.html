@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+
+<!-- www.phpied.com/conditional-comments-block-downloads/ -->
+<!--[if IE]><![endif]-->
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+     Remove this if you use the .htaccess -->
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+<title>Brett Holcomb</title>
+<meta name="description" content="Brett Holcomb's online portfolio">
+<meta name="author" content="Brett Holcomb">
+
+<!--  Mobile Viewport Fi
+      j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+device-width : Occupy full width of the screen in its current orientation
+initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
+<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<!-- CSS : implied media="all" -->
+<link rel="stylesheet" href="css/style.css?v=1">
+
+<!-- For the less-enabled mobile browsers like Opera Mini -->
+<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">
+
+
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="js/modernizr-1.5.min.js"></script>
+
+</head>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if gt IE 9]>  <body>             <![endif]-->
+<!--[if !IE]><!--> <body>         <!--<![endif]-->
+
+<div id="container">
+    <header>
+        <div id="logo">
+            <a href="index.html">Machinesong: Brett Holcomb's Portfolio</a>
+        </div>
+        <div id="yellowMarker">
+            <div id="yellowMarker_BR"></div>
+            <div id="yellowMarker_BL"></div>
+        </div>
+        <ul>
+            <li class="Home">
+                <a href="index.html">home</a>
+            </li>
+            <li class="Projects">
+                <a href="projects.html">projects</a>
+            </li>
+            <li class="Contact">
+                <a href="contact.html">contact</a>
+            </li>
+            <li class="Resume">
+                <a href="resume.html">resume</a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="project_main" class="content">
+        <div class="projectTitle">
+            <h1>3D Radiance Tracer</h1>
+        </div>
+        <div class="floatLeft width244">
+            <h4 class="first">Technologies</h4>
+            <ul>
+                <li><a href="http://www.openframeworks.cc/">openFrameworks</a> C++ toolkit</li>
+                <li>6 Logitech webcams</li>
+                <li>PC Laptop w/ <a href="http://www.microsoft.com/express/downloads/">Visual Studio</a> & <a href="http://amcap.en.softonic.com/">AMCap</a></li>
+                <li><a href="http://www.arduino.cc/">Arduino</a> nano microcontroller with:</li>
+                <li>2 step sensors</li>
+                <li>1 hit sensor</li>
+                <li>1 potentiometer</li>
+            </ul>
+            <div class="img-with-caption">
+                <a rel="cbox" title="I'd previously played with light painting" href="images/RadianceTracer/light-smiley.jpg">
+                    <img alt="light painted smiley" src="images/RadianceTracer/244-light-smiley.jpg" /></a>
+                <p>I'd previously played with light painting</p>
+            </div>
+            <div class="img-with-caption" style="position: relative;">
+                <img id="imgScreen" alt="people in park from one angle" src="images/RadianceTracer/244-single-pic-in-park-front.png"/>
+                <a id="animImg" rel="cbox" title="I'd also played with taking pictures from multiple angles" href="images/RadianceTracer/multi-pics-in-park-front.gif">
+                    <img alt="picture from multiple angles" src="images/RadianceTracer/244-multi-pics-in-park-front.gif" /></a>
+                <p>I'd also played with taking pictures from multiple angles and playing them back
+                    <br/><b>*Hover over image to see animation</b></p>
+            </div>
+            <div class="img-with-caption">
+                <a rel="cbox" title="Visitors enjoying the final installation" href="images/RadianceTracer/visitors-tracing.jpg">
+                    <img alt="visitors light painting" src="images/RadianceTracer/244-visitors-tracing.jpg" /></a>
+                <p>Visitors enjoying the final installation</p>
+            </div>
+            <div class="img-with-caption">
+                <a rel="cbox" title="Light painting with 6 cameras" href="images/RadianceTracer/800-six-camera-tracing.jpg">
+                    <img alt="light painting example" src="images/RadianceTracer/244-six-camera-tracing.jpg" /></a>
+                <p>Light painting with 6 cameras</p>
+            </div>
+            <div class="img-with-caption">
+                <a rel="cbox" title="Testing with multiple webcams" href="images/RadianceTracer/cam-testing-at-desk.jpg">
+                    <img alt="6 webcams and monitor with painting" src="images/RadianceTracer/244-cam-testing-at-desk.jpg" /></a>
+                <p>Testing with multiple webcams</p>
+            </div>
+        </div>
+        <div class="floatLeft EduProExp">
+            <h3 class="first">BACKGROUND:</h3>
+            <p>
+                This was my final project for the course “Making Things Interact” in the School of Architecture at
+                Carnegie Mellon. The assignment was open-ended and I chose to combine electronic sensing, light
+                painting, multiple camera perspectives, and real-time processing to create an installation at which
+                visitors could sketch 3D light forms in space.
+            </p>
+
+            <h3>DEMO VIDEO:</h3>
+            <p>
+                <i>In the video you see me drawing in the air with the light attached to the camera
+                then turning back to the computer monitor to see the resulting light painting. </i>
+            <br/><br/></p>
+            <object width="506" height="297">
+                <param name="movie" value="http://www.youtube.com/v/HEQ6kCr3pBY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999">
+                <param name="allowFullScreen" value="true">
+                <param name="wmode" value="transparent">
+                <param name="allowscriptaccess" value="always">
+                <embed wmode="transparent" src="http://www.youtube.com/v/HEQ6kCr3pBY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed>
+            </object>
+
+            <h3>EXPLORE & BUILD:</h3>
+            <p>
+                This was the first time I used openFrameworks, but I love experimenting with new tools. After installing
+                the toolkit and checking out some of the examples, I created a simple program that captured images from my
+                laptop’s webcam and only updated a given pixel if it was brighter than the previously recorded data.
+            <br/><br/></p>
+            <p>
+                With a simple example working, I ordered 6 Logitech webcams and began experimenting with multiple cameras.
+                I eventually got all 6 cameras working and with some keyboard debug shortcuts I could show system status,
+                set the current camera, change the refresh rate, and open the settings for any individual camera.
+            <br/><br/></p>
+
+            <div class="img-with-caption floatRight" style="margin-top: 2px; margin-left:27px; width: 332px;">
+                <a rel="cbox" title="Installation configuration diagram" href="images/RadianceTracer/configuration-diagram.jpg">
+                    <img alt="light painting example" src="images/RadianceTracer/330-configuration-diagram.jpg" /></a>
+                <p>Installation configuration diagram</p>
+            </div>
+
+            <p>
+                The final steps for this project were building my sensor circuits and setting up serial communication between
+                my openFrameworks program and the Arduino. I didn’t want visitors to need to interact with a keyboard, so I used
+                4 tangible sensors.
+            <br/><br/></p>
+            <p>
+                A potentiometer controlled how fast the images sequenced, one foot sensor let people switch between seeing one
+                image fullscreen or all six tiled, another foot sensor disabled additional input, and finally hitting a can overhead
+                reset the image so you could start painting again.
+            </p>
+
+            <div class="clearfix"></div>
+            <h3>LESSONS LEARNED:</h3>
+            <p>
+                This project was a ton of fun, and I definitely consider it a success. Nevertheless, there’s always the opportunity
+                to learn from experience.
+            <br/><br/></p>
+            <p>
+                Choose sensors carefully. Everyone was thrilled to hit the coffee can to clear the current image, but visitors
+                weren’t nearly as interested in trying the foot sensors or the potentiometer. Another issue was that the functionality
+                wasn’t clearly mapped and needed to be explained.
+            <br/><br/></p>
+            <p>
+                Trust early testing. Several people noted that they would rather see the images mirrored so that they were the
+                same orientation as the original painting. I'd also heard this in testing with before the exhibit day, but didn’t
+                get a chance to fix it before the demo.
+            <br/><br/></p>
+            <p>
+                Bring a camera! One of my biggest regrets is that I didn’t document the demo day better. I was busy showing off
+                my project, but if I had to do it over again I would definitely recruit someone to take pictures and video.
+            </p>
+
+            <div class="nextProjNav">
+                <p class="floatRight"><a href="AIR.html"><span>Next: AIR Website Redesign</span> &#9658;</a></p>
+            </div>
+        </div>
+
+        <div class="clearBoth"><!-- --></div>
+    </div>
+
+    <footer>
+        <div class="popperBox">
+            <div class="popResume">
+                <div class="corner_TR"></div>
+                <div class="corner_TL"></div>
+            </div>
+            <div class="popContact">
+                <div class="corner_TR"></div>
+                <div class="corner_TL"></div>
+            </div>
+            <div class="popProjects">
+                <div class="corner_TR"></div>
+                <div class="corner_TL"></div>
+            </div>
+            <div class="popHome">
+                <div class="corner_TR"></div>
+                <div class="corner_TL"></div>
+            </div>
+        </div>
+    </footer>
+</div> <!--! end of #container -->
+
+
+<!-- Javascript at the bottom for fast page loading -->
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
+<script src="js/jquery.easing.1.3.js"></script>
+
+<script src="js/plugins.js?v=1"></script>
+<script type="text/javascript">pageName = 'Projects';</script>
+<script src="js/script.js?v=1"></script>
+
+<!-- Set up ColorBox for project page -->
+<script src="js/jquery.colorbox-min.js"></script>
+<link rel="stylesheet" href="css/colorbox.css">
+<script> $(document).ready(function(){
+    $("a[rel='cbox']").colorbox(); });
+</script>
+
+<!-- script for this page only -->
+<script>
+    $('#imgScreen').mouseover(function(){ $('#imgScreen').hide(); });
+    $('#animImg').mouseout(function(){ $('#imgScreen').show(); });
+</script>
+
+<!--[if lt IE 7 ]>
+  <script src="js/dd_belatedpng.js?v=1"></script>
+<![endif]-->
+
+
+<!-- yui profiler and profileviewer - remove for production -->
+<script src="js/profiling/yahoo-profiling.min.js?v=1"></script>
+<script src="js/profiling/config.js?v=1"></script>
+<!-- end profiling code -->
+
+
+<!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
+     change the UA-XXXXX-X to be your site's ID -->
+  <script>
+   var _gaq = [['_setAccount', 'UA-4266872-2'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = '//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+  </script>
+
+</body>
+</html>
