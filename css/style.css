@@ -214,7 +214,7 @@ button {  width: auto; overflow: visible; }
 .projectDiv, projectDivLast { clear: both; }
 .projectDiv { margin-bottom: 50px; }
 .projectDivLast { margin-bottom: 0px; }
-.first,div.first { margin-top: 0px;}
+.first,div.first,.otherProjects h3.first { margin-top: 0px;}
 
 /*** TYPOGRAPHY ***/
 
@@ -231,7 +231,7 @@ h1 {
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
     font-size: 36px;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
     color: #fbf121;
 }
 h2 {
@@ -347,7 +347,7 @@ header ul .Resume a:hover{           background-position: -343px -31px; }
 
 /*** HOME ***/
 .brettPic { width: 244px; float: left; margin-right: 30px; }
-.welcome { margin: 0px 0px 17px -2px; }
+.welcome { margin: 4px 0px 17px -2px; }
 
 /*** RESUME ***/
 .goal, .projectTitle { margin-left: 288px; width: 508px; }
@@ -373,7 +373,7 @@ ul.listInParagraph li { margin-top: 1px; }
 }
 
 /*** PROJECT ***/
-.projectTitle { margin-bottom: 30px; }
+.projectTitle { margin-bottom: 20px; }
 #project_main h3 { color: #fbf121; }
 .img-with-caption {margin-top: 35px; }
 .img-with-caption img { border: 1px solid #FBF121; }

@@ -10,7 +10,7 @@
      Remove this if you use the .htaccess -->
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
-<title>Brett Holcomb</title>
+<title>Brett Holcomb - 3D Radiance Tracer</title>
 <meta name="description" content="Brett Holcomb's online portfolio">
 <meta name="author" content="Brett Holcomb">
 
@@ -24,7 +24,7 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
 
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
@@ -118,7 +118,7 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
             </div>
         </div>
         <div class="floatLeft EduProExp">
-            <h3 class="first">BACKGROUND:</h3>
+            <h3 class="first">BACKGROUND</h3>
             <p>
                 This was my final project for the course “Making Things Interact” in the School of Architecture at
                 Carnegie Mellon. The assignment was open-ended and I chose to combine electronic sensing, light
@@ -126,7 +126,7 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
                 visitors could sketch 3D light forms in space.
             </p>
 
-            <h3>DEMO VIDEO:</h3>
+            <h3>DEMO VIDEO</h3>
             <p>
                 <i>In the video you see me drawing in the air with the light attached to the camera
                 then turning back to the computer monitor to see the resulting light painting. </i>
@@ -139,7 +139,7 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
                 <embed wmode="transparent" src="http://www.youtube.com/v/HEQ6kCr3pBY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed>
             </object>
 
-            <h3>EXPLORE & BUILD:</h3>
+            <h3>EXPLORE & BUILD</h3>
             <p>
                 This was the first time I used openFrameworks, but I love experimenting with new tools. After installing
                 the toolkit and checking out some of the examples, I created a simple program that captured images from my
@@ -169,7 +169,7 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
             </p>
 
             <div class="clearfix"></div>
-            <h3>LESSONS LEARNED:</h3>
+            <h3>LESSONS LEARNED</h3>
             <p>
                 This project was a ton of fun, and I definitely consider it a success. Nevertheless, there’s always the opportunity
                 to learn from experience.
@@ -218,6 +218,25 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
         </div>
     </footer>
 </div> <!--! end of #container -->
+
+<div class="hidden">
+    <script type="text/javascript">
+        var images = new Array()
+        function preload() {
+            for (i = 0; i < preload.arguments.length; i++) {
+                images[i] = new Image()
+                images[i].src = preload.arguments[i]
+        }   }
+        preload(
+            "images/RadianceTracer/light-smiley.jpg",
+            "images/RadianceTracer/multi-pics-in-park-front.gif",
+            "images/RadianceTracer/visitors-tracing.jpg",
+            "images/RadianceTracer/800-six-camera-tracing.jpg",
+            "images/RadianceTracer/cam-testing-at-desk.jpg",
+            "images/RadianceTracer/configuration-diagram.jpg"
+        )
+    </script>
+</div>
 
 
 <!-- Javascript at the bottom for fast page loading -->
