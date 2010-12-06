@@ -220,7 +220,7 @@ button {  width: auto; overflow: visible; }
 
 body {color: #b1b1b1;}
 span.acronym { letter-spacing: 0px; }
-p {
+p,ol{
     font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
     color: #dddddd;
     line-height: 19px;
@@ -359,7 +359,7 @@ header ul .Resume a:hover{           background-position: -343px -31px; }
     display: block; overflow: hidden;
 }
 .EduProExp { margin: 0px 0px 0px 44px; width: 618px; }
-.EduProExp p,.EduProExp h2 { width: 508px; }
+.EduProExp p,.EduProExp h2, .EduProExp ol { width: 508px; }
 .EduProExp ul { width: 494px; }
 .content p { font-family: Verdana, Tahoma, Geneva, sans-serif; letter-spacing: .2px; line-height: 17px;  }
 .content ul { font-family: Verdana, Tahoma, Geneva, sans-serif; letter-spacing: .2px; font-size: 12px; line-height: 16px; list-style: none; color: #B1B1B1; margin: 0px;  }

@@ -1,7 +1,7 @@
 /* Author: Brett Lion Holcomb
 */
-var maxSpeed = 5;
-var minSpeed = 20;
+var maxSpeed = 10;
+var minSpeed = 25;
 var numDots = 20;
 var isDrawingLines = false;
 var mouseX = 0;
